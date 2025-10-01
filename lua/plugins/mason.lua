@@ -1,5 +1,6 @@
 return {
-  "williamboman/mason.nvim",
+  -- "williamboman/mason.nvim",
+  "mason-org/mason.nvim",
   opts = {
     ensure_installed = {
       "black",
@@ -11,12 +12,12 @@ return {
       "html-lsp",
       "nginx-language-server",
       "pyright",
-      "astro-language-server",
+      -- "astro-language-server", this for astro
       "emmet-language-server",
       "eslint-lsp",
-      "gofumpt",
-      "goimports",
-      "gopls",
+      -- "gofumpt", this for golang language
+      -- "goimports",
+      -- "gopls",
       "intelephense",
       "json-lsp",
       "lua-language-server",
@@ -28,7 +29,7 @@ return {
       "pint",
       "prettier",
       "shfmt",
-      "sleek",
+      -- "sleek", this for svelte
       "sqlfluff",
       "stylua",
       "tailwindcss-language-server",
